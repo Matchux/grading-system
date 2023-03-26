@@ -1,0 +1,94 @@
+* {
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.leftCol {
+  height: 150px;
+  width: 500px;
+}
+
+.rightCol {
+  align-items: end;
+  height: 100px;
+  width: 500px;
+}
+
+.name {
+  margin: 10em, 0;
+  color: #2c2c2c
+}
+
+.row { display: flex;}
+.grade {
+  color: #fff;
+  background: #2c2c2c;
+}
+
+.grading {
+  padding: 20px;
+  color: #fff;
+  background: #2c2c2c;
+  width: 150px;
+}
+
+#gradeForm, #gradeCalc {
+  max-width: 500px;
+  padding: 15px;
+  border: 1px solid #da0f0f;
+  margin: 10px 0;
+  background: transparent;
+}
+
+#gradeForm , #gradeForm input {
+  display: block;
+  width: 100%;
+}
+
+#gradeForm input {
+  border: 1px solid #da0f0f;
+}
+
+#gradeForm label { 
+  margin: 10px 0;
+}
+
+#gradeForm input { 
+  padding: 10px; 
+}
+
+#gradeForm input[type=submit] {
+  margin-top: 10px;
+  color: #fff;
+  border: 0;
+  background: #da0f0f;
+}
+
+#gradeForm input[type=number] { 
+  flex-grow: 1; 
+}
+
+#gradeCalc {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+#gradeCalc .grade { 
+  width: 120px; 
+}
+
+#gradeCalc .row {
+  border: 2px solid #f1f1f1;
+  background: #fff;
+}
+
+#gradeAverage, #gradeRemarks, #gradeDescriptor { 
+  padding: 20px
+}
